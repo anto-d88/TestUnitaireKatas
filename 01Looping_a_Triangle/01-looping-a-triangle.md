@@ -19,3 +19,4 @@ let abc = "abc";
 console.log(abc.length);
 // → 3
 ```
+OK
