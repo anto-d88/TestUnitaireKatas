@@ -31,7 +31,7 @@ describe("#triangle",function(){
     
     it("should test le type de valeur returner dans la variable testObjet",function(){
     
-        assert.strictEqual(arrayObject[0].test,"#######","le valeur est differente");
+        assert.strictEqual(arrayObject[0].test,""+"\n"+"#"+"\n"+"##"+"\n"+"###"+"\n"+"####"+"\n"+"#####"+"\n"+"######"+"\n"+"#######","le valeur est differente");
     
     })
 })

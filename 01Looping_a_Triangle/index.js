@@ -8,8 +8,14 @@ module.exports  = function triangle(){
     let array = []; 
 
     for(let i=1; i<=7; i++){
+       
+        if(i){
+            
+            str += "\n";
+            
+          }
       
-        str += "#";
+        str += "#".repeat(i);
      
         testObject.test = str;
         
