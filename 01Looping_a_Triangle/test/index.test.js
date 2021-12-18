@@ -5,33 +5,41 @@ const triangle = require('../index');
 
 describe("#triangle",function(){
 
-    let arrayObject= triangle();
+    let arrayTest= triangle();
     
     it("should test return array",function(){
     
-        assert.isArray(arrayObject,"ce n'est pas un array");
+        assert.isArray(arrayTest,"ce n'est pas un array");
     
     })
 
     
     it("should test la longueur de l'array",function(){
     
-        assert.strictEqual(arrayObject.length,7,"ça ne fonctionne pas");
+        assert.strictEqual(arrayTest.length,7,"ça ne fonctionne pas");
     
     })
 
     
     it("should test object",function(){
     
-        assert.isObject(arrayObject[0],"ce n'est pas un objet");
+        assert.isObject(arrayTest[0],"ce n'est pas un objet");
     
     })
 
 
     
-    it("should test le type de valeur returner dans la variable testObjet",function(){
+    it("should test le type de valeur returner dans l'array'",function(){
     
-        assert.strictEqual(arrayObject[0].test,""+"\n"+"#"+"\n"+"##"+"\n"+"###"+"\n"+"####"+"\n"+"#####"+"\n"+"######"+"\n"+"#######","le valeur est differente");
+        assert.strictEqual(arrayTest[0].test,"\n"+
+                                               "#"+"\n"+
+                                               "##"+"\n"+
+                                               "###"+"\n"+
+                                               "####"+"\n"+
+                                               "#####"+"\n"+
+                                               "######"+"\n"+
+                                               "#######","le valeur est differente");
     
     })
+
 })

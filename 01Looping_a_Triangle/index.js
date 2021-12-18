@@ -14,9 +14,9 @@ module.exports  = function triangle(){
             str += "\n";
             
           }
-      
+          
         str += "#".repeat(i);
-     
+      
         testObject.test = str;
         
         array.push(testObject);

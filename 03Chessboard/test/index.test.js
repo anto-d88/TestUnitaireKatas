@@ -28,7 +28,7 @@ describe("#echequier", function(){
 
 
     
-    it("should test le type de valeur returner dans la variable testObjet",function(){
+    it("should test le type de valeur returner dans l'array'",function(){
     
         assert.equal(arrayTest[0].test," # # # #" + "\n" + 
                                        "# # # # " + "\n" + 
