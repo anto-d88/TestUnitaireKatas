@@ -7,21 +7,21 @@ describe("#triangle",function(){
 
     let arrayObject= triangle();
     
-    it("should return array",function(){
+    it("should test return array",function(){
     
         assert.isArray(arrayObject,"ce n'est pas un array");
     
     })
 
     
-    it("should count element",function(){
+    it("should test la longueur de l'array",function(){
     
         assert.strictEqual(arrayObject.length,7,"ça ne fonctionne pas");
     
     })
 
     
-    it("should find object",function(){
+    it("should test object",function(){
     
         assert.isObject(arrayObject[0],"ce n'est pas un objet");
     
@@ -29,7 +29,7 @@ describe("#triangle",function(){
 
 
     
-    it("should find same string",function(){
+    it("should test le type de valeur returner dans la variable testObjet",function(){
     
         assert.strictEqual(arrayObject[0].test,"#######","le valeur est differente");
     
