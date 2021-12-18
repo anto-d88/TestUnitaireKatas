@@ -28,7 +28,7 @@ describe("#echequier", function(){
 
 
     
-    it("should test le type de valeur returner dans l'array'",function(){
+    it("should test la valeur returner dans l'array'",function(){
     
         assert.equal(arrayTest[0].test," # # # #" + "\n" + 
                                        "# # # # " + "\n" + 
@@ -38,6 +38,12 @@ describe("#echequier", function(){
                                        "# # # # " + "\n" + 
                                        " # # # #" + "\n" + 
                                        "# # # # "+"\n", "le valeur est differente");
+    
+    })
+
+    it("should test le type de valeur returner dans l'array'",function(){
+    
+        assert.isString(arrayTest[0].test, "le valeur est differente");
     
     })
 })

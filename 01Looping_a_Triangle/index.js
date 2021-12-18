@@ -9,13 +9,8 @@ module.exports  = function triangle(){
 
     for(let i=1; i<=7; i++){
        
-        if(i){
-            
-            str += "\n";
-            
-          }
-          
-        str += "#".repeat(i);
+
+        str += "\n" + "#".repeat(i);
       
         testObject.test = str;
         
