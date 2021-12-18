@@ -1,21 +1,21 @@
-module.exports = function makeTriangle(nb) {
 
-    let sharp = [];
-    for (let i = 0; i < nb; i++) {
-        
-        if ( i >= 7 ) {
-            break;
-        }
+module.exports  = function triangle(){
+  
+    let str = "" 
 
-        sharp.push('#');
-        // console.log(sharp.join(''));
+    let testObject = {test:""}; 
+    
+    let array = []; 
+
+    for(let i=1; i<=7; i++){
+      
+        str += "#";
+     
+        testObject.test = str;
         
+        array.push(testObject);
+       
     }
-    console.log(sharp);
-    return sharp.length;
+
+    return array;
 }
-
-// let result = makeTriangle(7);
-
-// console.log(result);
-
